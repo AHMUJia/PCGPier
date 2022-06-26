@@ -1,0 +1,15 @@
+Package: PCGPier
+Type: Package
+Title: Calculate the gene-pair based prognostic signature PCGPier for prostate cancer samples
+Version: 0.1.0
+Author: Jialin Meng, Xiaofan Lu, Tong Jin
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: This prognosis prediction study established a gene-pairs based RFS prediction classifier for prostate cancer patients, which is universal applicable in multiple cohorts with different gene expression detection methods. 
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
