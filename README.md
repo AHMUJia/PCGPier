@@ -21,11 +21,11 @@ load(system.file("extdata", "demo.RData", package = "PCGPier", mustWork = TRUE))
 riskscore  <- PCGPier(expr = demo)
 
 # print
-head(PCGPier)
-#     SampleID  Riskscore
-# 1 GSM1133136 -1.0774821
-# 2 GSM1133137 -1.6531444
-# 3 GSM1133138 -3.1462112
-# 4 GSM1133139  0.6813608
-# 5 GSM1133140 -0.9929728
-# 6 GSM1133141 -1.3352130
+head(riskscore)
+#     SampleID  Riskscore Group
+# 1 GSM1133136 -1.0774821 HRisk
+# 2 GSM1133137 -1.6531444 HRisk
+# 3 GSM1133138 -3.1462112 LRisk
+# 4 GSM1133139  0.6813608 HRisk
+# 5 GSM1133140 -0.9929728 HRisk
+# 6 GSM1133141 -1.3352130 HRisk
