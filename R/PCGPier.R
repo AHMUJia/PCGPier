@@ -125,6 +125,7 @@ PCGPier <- function(expr = NULL,res.path = getwd())
   # output
   outTab <- data.frame(SampleID = names(Riskscore),
                        Riskscore = as.numeric(Riskscore),
+                       Group = ifelse(Riskscore>=-2.820,"HRisk","LRisk"),
                        stringsAsFactors = F)
   write.table(outTab,
               file = file.path(res.path,"Estimated Riskscore.txt"),
